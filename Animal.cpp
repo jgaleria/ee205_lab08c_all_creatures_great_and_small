@@ -8,10 +8,8 @@
 /// @author Joshua Galeria <jgaleria@hawaii.edu>
 /// @date   12_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
+#include "Animal.h"
 
-#include <iostream>
+using namespace std;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+const string Animal::kingdom = "Animalia";
